@@ -1,3 +1,4 @@
-.json
-!apps.json
-!navs.json
+**/*.json
+!**/apps.json
+!**/navs.json
+tools/

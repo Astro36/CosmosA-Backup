@@ -13,5 +13,10 @@
     Order Deny,Allow
     Deny from all
 </Files>
+<Files ~ ".json$">
+    Order Deny,Allow
+    Deny from all
+</Files>
 php_flag register_globals on
 php_flag register_long_arrays on
+ServerSignature Off
