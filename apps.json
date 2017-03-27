@@ -1,5 +1,6 @@
 {
     "Altair": {
+        "type": "web",
         "image": "assets/img_altair.png",
         "description": "Anonymous Writing",
         "links": [{
@@ -8,11 +9,13 @@
         }]
     },
     "Charon": {
+        "type": "android",
         "image": "assets/img_charon.png",
         "description": "Web Screenshot Tool",
         "links": []
     },
     "Deneb": {
+        "type": "web",
         "image": "assets/img_deneb.png",
         "description": "Integrated User Management System",
         "links": [{
@@ -21,6 +24,7 @@
         }]
     },
     "JS Tools": {
+        "type": "web",
         "image": "assets/img_js_tools.png",
         "description": "Tools for Javascript (Incompleted)",
         "links": [{
@@ -29,6 +33,7 @@
         }]
     },
     "Metis": {
+        "type": "android",
         "image": "assets/img_metis.png",
         "description": "Android Wallpaper Stealer",
         "links": [{
@@ -37,11 +42,13 @@
         }]
     },
     "Pandora": {
+        "type": "android",
         "image": "assets/img_pandora.png",
         "description": "Words of Today",
         "links": []
     },
     "Proxima B": {
+        "type": "android",
         "image": "assets/img_proximab.png",
         "description": "Artificial Ecosystem Simulation",
         "links": [{
@@ -50,6 +57,7 @@
         }]
     },
     "Rhea": {
+        "type": "android",
         "image": "assets/img_rhea.png",
         "description": "Kakao Bot",
         "links": []
