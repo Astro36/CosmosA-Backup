@@ -70,7 +70,15 @@
                         <a class="mdl-chip__text mdl-color-text--grey-800" href="mailto:astr36@naver.com" style="text-decoration: none;">Astro | E-mail</a>
                     </span>
                 </div>
+            </div>
 
+            <div style="background: url('assets/img_full_moon.jpg') center / cover; height: 400px;"></div>
+            <div class="mdl-color--blue-grey-700" style="padding: 28px; text-align: center;">
+                <h1 class="mdl-color-text--white">Hello, world!</h1>
+                <h4 class="mdl-color-text--white">Welcome to MineDev</h4>
+            </div>
+
+            <div class="mdl-grid">
                 <?php
                     $apps = json_decode(file_get_contents('apps.json'), true);
                     $i = 0;

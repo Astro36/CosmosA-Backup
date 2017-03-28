@@ -5,7 +5,7 @@
             <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
             <h1 class="mdl-mega-footer__heading">MineDev</h1>
             <ul class="mdl-mega-footer__link-list">
-                <li><a href="http://minedev.dothome.co.kr/index.php">Apps</a></li>
+                <li><a href="http://minedev.dothome.co.kr">Home</a></li>
             </ul>
         </div>
 
@@ -14,7 +14,7 @@
             <h1 class="mdl-mega-footer__heading">Android Apps</h1>
             <ul class="mdl-mega-footer__link-list">
                 <?php
-                    $apps = json_decode(file_get_contents('apps.json'), true);
+                    $apps = json_decode(file_get_contents(str_replace(basename(__FILE__), '', realpath(__FILE__)) . 'apps.json'), true);
                     foreach ($apps as $name => $app) {
                         if ($app['type'] === 'android') {
                             $links = $app['links'];
@@ -58,7 +58,7 @@
         <div class="mdl-mini-footer__right-section">
             <ul class="mdl-mini-footer__link-list">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#top">Back to Top</a></li>
+                <li><a href="javascript:scrollTo('#top');">Back to Top</a></li>
             </ul>
         </div>
 </footer>

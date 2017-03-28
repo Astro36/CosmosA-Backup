@@ -66,12 +66,6 @@
         </main>
     </div>
     <?php include '../scripts.tmpl'; ?>
-    <script defer src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript">
-        function scrollTo(id){
-            $('html, body, div, main').stop().animate({scrollTop: $(id).offset().top}, 1000);
-        }
-    </script>
 </body>
 
 </html>

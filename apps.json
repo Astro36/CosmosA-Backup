@@ -5,7 +5,7 @@
         "description": "Anonymous Writing",
         "links": [{
             "text": "바로가기",
-            "url": "altair/index.php"
+            "url": "altair/index"
         }]
     },
     "Charon": {
@@ -20,7 +20,7 @@
         "description": "Integrated User Management System",
         "links": [{
             "text": "바로가기",
-            "url": "deneb/index.php"
+            "url": "deneb/index"
         }]
     },
     "JS Tools": {
@@ -29,7 +29,7 @@
         "description": "Tools for Javascript (Incompleted)",
         "links": [{
             "text": "바로가기",
-            "url": "js-tools/index.php"
+            "url": "js-tools/index"
         }]
     },
     "Metis": {
@@ -53,7 +53,7 @@
         "description": "Artificial Ecosystem Simulation",
         "links": [{
             "text": "바로가기",
-            "url": "proximab/index.php"
+            "url": "proximab/index"
         }]
     },
     "Rhea": {

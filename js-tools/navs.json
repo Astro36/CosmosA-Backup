@@ -1,4 +1,4 @@
 {
-    "Home": "index.php",
-    "Tools": "tools.php"
+    "Home": "index",
+    "Tools": "tools"
 }

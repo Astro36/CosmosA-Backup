@@ -1,8 +1,7 @@
 {
-    "Home": "index.php",
-    "Altair": "altair/index.php",
-    "Deneb": "deneb/index.php",
-    "JS Tools (Incompleted)": "js-tools/index.php",
-    "Proxima B": "proximab/index.php",
-    "Tools": "tools/index.php"
+    "Home": "http://minedev.dothome.co.kr",
+    "Altair": "altair/index",
+    "Deneb": "deneb/index",
+    "JS Tools": "js-tools/index",
+    "Proxima B": "proximab/index"
 }
