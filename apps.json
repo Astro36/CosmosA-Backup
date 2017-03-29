@@ -5,7 +5,7 @@
         "description": "Anonymous Writing",
         "links": [{
             "text": "바로가기",
-            "url": "altair/index"
+            "url": "http://minedev.dothome.co.kr/altair/index"
         }]
     },
     "Charon": {
@@ -20,7 +20,7 @@
         "description": "Integrated User Management System",
         "links": [{
             "text": "바로가기",
-            "url": "deneb/index"
+            "url": "http://minedev.dothome.co.kr/deneb/index"
         }]
     },
     "JS Tools": {
@@ -29,7 +29,7 @@
         "description": "Tools for Javascript (Incompleted)",
         "links": [{
             "text": "바로가기",
-            "url": "js-tools/index"
+            "url": "http://minedev.dothome.co.kr/js-tools/index"
         }]
     },
     "Metis": {
@@ -53,7 +53,7 @@
         "description": "Artificial Ecosystem Simulation",
         "links": [{
             "text": "바로가기",
-            "url": "proximab/index"
+            "url": "http://minedev.dothome.co.kr/proximab/index"
         }]
     },
     "Rhea": {

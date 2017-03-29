@@ -11,10 +11,11 @@
 
 <body>
     <div class="mdl-color--grey-100 mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall">
             <div class="mdl-layout__header-row">
                 <span class="mdl-layout-title">MineDev</span>
             </div>
+            <span class="" style="margin: 16px; margin-left: 72px;"><a class="mdl-color-text--white" href="javascript:scrollTo('#about', 108)" style="text-decoration: none;">About</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a class="mdl-color-text--white" href="javascript:scrollTo('#apps', 108)" style="text-decoration: none;">Apps</a></span>
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">MineDev</span>
@@ -42,8 +43,8 @@
                     </tr>
                 </table>
             </div>
-            <div class="mdl-grid">
-                <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--2-offset-desktop" id="logo" style="padding: 24px 24px 24px 24px">
+            <div class="mdl-grid" id="about">
+                <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--2-offset-desktop" style="padding: 24px 24px 24px 24px">
                     <div style="background: url('assets/img_favicon.png') center / cover; border-radius: 8px; margin: 0 auto; width: 200px; height: 200px;">
                     </div>
 
@@ -54,7 +55,7 @@
                     2016년 5월 5일부터 본격적인 개발에 들어가 현재의 모습이 되었다.<br>
                     2017년 3월 6일 한 번 갈아 엎었다.
                 </div>
-                <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--2-offset-desktop" id="logo" style="padding: 24px 24px 24px 24px">
+                <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--2-offset-desktop" style="padding: 24px 24px 24px 24px">
                     <div style="background: url('assets/img_astro.png') center / cover; border-radius: 8px; margin: 0 auto; width: 200px; height: 200px;">
                     </div>
 
@@ -72,13 +73,15 @@
                 </div>
             </div>
 
-            <div style="background: url('assets/img_full_moon.jpg') center / cover; height: 400px;"></div>
-            <div class="mdl-color--blue-grey-700" style="padding: 28px; text-align: center;">
-                <h1 class="mdl-color-text--white">Hello, world!</h1>
+            <div style="background: url('assets/img_full_moon.jpg') center / cover; margin-top: 24px;">
+                <h1 style="margin: 0;"><br><br><br><br></h1>
+            </div>
+            <div class="mdl-color--blue-grey-700" style="margin-bottom: 24px; padding: 28px; text-align: center;">
+                <h2 class="mdl-color-text--white">Hello, world!</h2>
                 <h4 class="mdl-color-text--white">Welcome to MineDev</h4>
             </div>
 
-            <div class="mdl-grid">
+            <div class="mdl-grid" id="apps">
                 <?php
                     $apps = json_decode(file_get_contents('apps.json'), true);
                     $i = 0;
