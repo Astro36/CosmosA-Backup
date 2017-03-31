@@ -3,5 +3,6 @@
     "Altair": "altair/index",
     "Deneb": "deneb/index",
     "JS Tools": "js-tools/index",
+    "Meta": "meta/index",
     "Proxima B": "proximab/index"
 }

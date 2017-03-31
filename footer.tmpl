@@ -6,6 +6,7 @@
             <h1 class="mdl-mega-footer__heading">MineDev</h1>
             <ul class="mdl-mega-footer__link-list">
                 <li><a href="http://minedev.dothome.co.kr">Home</a></li>
+                <li><a href="http://minedev.dothome.co.kr/meta/index">Meta</a></li>
             </ul>
         </div>
 
@@ -18,9 +19,7 @@
                     foreach ($apps as $name => $app) {
                         if ($app['type'] === 'android') {
                             $links = $app['links'];
-                            if (count($links) === 0) {
-                                echo '<li><a href="#">' . $name . '</a></li>';
-                            } else {
+                            if (count($links) > 0) {
                                 echo '<li><a href="' . $links[0]['url'] . '">' . $name . '</a></li>';
                             }
                         }
@@ -37,9 +36,7 @@
                     foreach ($apps as $name => $app) {
                         if ($app['type'] === 'web') {
                             $links = $app['links'];
-                            if (count($links) === 0) {
-                                echo '<li><a href="#">' . $name . '</a></li>';
-                            } else {
+                            if (count($links) > 0) {
                                 echo '<li><a href="' . $links[0]['url'] . '">' . $name . '</a></li>';
                             }
                         }
