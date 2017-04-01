@@ -23,6 +23,15 @@
             "url": "http://minedev.dothome.co.kr/deneb/index"
         }]
     },
+    "MDL Customizer": {
+        "type": "web",
+        "image": "assets/img_mdl_customizer.png",
+        "description": "MDL CSS Customizer",
+        "links": [{
+            "text": "바로가기",
+            "url": "http://minedev.dothome.co.kr/mdl-customizer/index"
+        }]
+    },
     "JS Tools": {
         "type": "web",
         "image": "assets/img_js_tools.png",

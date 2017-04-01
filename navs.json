@@ -3,6 +3,7 @@
     "Altair": "altair/index",
     "Deneb": "deneb/index",
     "JS Tools": "js-tools/index",
+    "MDL Customizer": "mdl-customizer/index",
     "Meta": "meta/index",
     "Proxima B": "proximab/index"
 }

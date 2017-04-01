@@ -1,0 +1,2 @@
+ErrorDocument 403 /meta/403.php
+ErrorDocument 404 /meta/404.php

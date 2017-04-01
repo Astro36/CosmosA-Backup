@@ -15,7 +15,7 @@
             <div class="mdl-layout__header-row">
                 <span class="mdl-layout-title">MineDev</span>
             </div>
-            <span class="" style="margin: 16px; margin-left: 72px;"><a class="mdl-color-text--white" href="javascript:scrollTo('#about', 120)" style="text-decoration: none;">About</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a class="mdl-color-text--white" href="javascript:scrollTo('#astro', 120)" style="text-decoration: none;">Astro</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a class="mdl-color-text--white" href="javascript:scrollTo('#meta', 120)" style="text-decoration: none;">Meta</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a class="mdl-color-text--white" href="javascript:scrollTo('#apps', 108)" style="text-decoration: none;">Apps</a></span>
+            <span class="" style="margin: 16px; margin-left: 72px;"><a class="mdl-color-text--white" href="javascript:scrollTo('#about', 120)" style="text-decoration: none;">About</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a class="mdl-color-text--white" href="javascript:scrollTo('#astro', 120)" style="text-decoration: none;">Astro</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a class="mdl-color-text--white" href="javascript:scrollTo('#meta', 120)" style="text-decoration: none;">Meta</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a class="mdl-color-text--white" href="javascript:scrollTo('#cosmosa', 120)" style="text-decoration: none;">Cosmos A&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a class="mdl-color-text--white" href="javascript:scrollTo('#apps', 108)" style="text-decoration: none;">Apps</a></span>
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">MineDev</span>
@@ -77,6 +77,13 @@
 
                     <h4>Meta</h4>
                     Meta는 2016년 청소년 개발자를 주축으로 설립되었으며, Team IO, Object Studio, Team LeveL의 역사를 이어받고 있습니다.
+                </div>
+                <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--2-offset-desktop" id="cosmosa" style="padding: 24px 24px 24px 24px">
+                    <div style="background: url('assets/img_cosmosa.png') center / cover; border-radius: 8px; margin: 0 auto; width: 200px; height: 200px;">
+                    </div>
+
+                    <h4>Cosmos A</h4>
+                    Coming Soon!
                 </div>
             </div>
 
