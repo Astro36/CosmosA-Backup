@@ -58,7 +58,12 @@
                     특히 ModPE 스크립트 개발자들에게 코드 난독화 사이트로 알려져 있다.<br>
                     2016년 1월 25일 생성되었지만, 개발자가 한동안 묵혀두고 있었다.<br>
                     2016년 5월 5일부터 본격적인 개발에 들어가 현재의 모습이 되었다.<br>
-                    2017년 3월 6일 한 번 갈아 엎었다.
+                    2017년 3월 6일 한 번 갈아 엎었다.<br><br>
+
+                    <span class="mdl-chip mdl-chip--contact">
+                        <span class="mdl-chip__contact mdl-color--accent mdl-color-text--white">C</span>
+                        <a class="mdl-chip__text mdl-color-text--grey-800" href="https://github.com/CosmosA" style="text-decoration: none;">Cosmos A | Github</a>
+                    </span>
                 </div>
                 <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--2-offset-desktop" id="astro" style="padding: 24px 24px 24px 24px">
                     <div style="background: url('assets/img_astro.png') center / cover; border-radius: 8px; margin: 0 auto; width: 200px; height: 200px;">
@@ -75,13 +80,22 @@
                         <span class="mdl-chip__contact mdl-color--primary-dark mdl-color-text--white">A</span>
                         <a class="mdl-chip__text mdl-color-text--grey-800" href="mailto:astr36@naver.com" style="text-decoration: none;">Astro | E-mail</a>
                     </span>
+                    <span class="mdl-chip mdl-chip--contact">
+                        <span class="mdl-chip__contact mdl-color--accent mdl-color-text--white">A</span>
+                        <a class="mdl-chip__text mdl-color-text--grey-800" href="https://github.com/Astro36" style="text-decoration: none;">Astro | Github</a>
+                    </span>
                 </div>
                 <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col mdl-cell--2-offset-desktop" id="meta" style="padding: 24px 24px 24px 24px">
                     <div style="background: url('assets/img_meta.png') center / cover; border-radius: 8px; margin: 0 auto; width: 200px; height: 200px;">
                     </div>
 
                     <h4>Meta</h4>
-                    Meta는 2016년 청소년 개발자를 주축으로 설립되었으며, Team IO, Object Studio, Team LeveL의 역사를 이어받고 있습니다.
+                    Meta는 2016년 청소년 개발자를 주축으로 설립되었으며, Team IO, Object Studio, Team LeveL의 역사를 이어받고 있습니다.<br><br>
+
+                    <span class="mdl-chip mdl-chip--contact">
+                        <span class="mdl-chip__contact mdl-color--accent mdl-color-text--white">M</span>
+                        <a class="mdl-chip__text mdl-color-text--grey-800" href="https://github.com/Team-Meta" style="text-decoration: none;">Meta | Github</a>
+                    </span>
                 </div>
             </div>
 
