@@ -23,6 +23,16 @@
             "url": "http://minedev.dothome.co.kr/deneb/index"
         }]
     },
+    
+    "JS Tools": {
+        "type": "web",
+        "image": "assets/img_js_tools.png",
+        "description": "Tools for Javascript",
+        "links": [{
+            "text": "바로가기",
+            "url": "http://minedev.dothome.co.kr/js-tools/index"
+        }]
+    },
     "MDL Customizer": {
         "type": "web",
         "image": "assets/img_mdl_customizer.png",
@@ -30,15 +40,6 @@
         "links": [{
             "text": "바로가기",
             "url": "http://minedev.dothome.co.kr/mdl-customizer/index"
-        }]
-    },
-    "JS Tools": {
-        "type": "web",
-        "image": "assets/img_js_tools.png",
-        "description": "Tools for Javascript (Incompleted)",
-        "links": [{
-            "text": "바로가기",
-            "url": "http://minedev.dothome.co.kr/js-tools/index"
         }]
     },
     "Metis": {
@@ -49,6 +50,12 @@
             "text": "다운로드",
             "url": "https://github.com/CosmosA/Metis/releases"
         }]
+    },
+    "Nereid": {
+        "type": "android",
+        "image": "assets/img_nereid.png",
+        "description": "Naver Band Bot",
+        "links": []
     },
     "Pandora": {
         "type": "android",
@@ -68,7 +75,7 @@
     "Rhea": {
         "type": "android",
         "image": "assets/img_rhea.png",
-        "description": "Kakao Bot",
+        "description": "Kakao Talk Bot",
         "links": []
     }
 }
