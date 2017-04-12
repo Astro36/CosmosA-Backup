@@ -63,6 +63,12 @@
         "description": "Words of Today",
         "links": []
     },
+    "Pollux": {
+        "type": "nodejs",
+        "image": "assets/img_pollux.png",
+        "description": "Create HTML by Embedded Javascript",
+        "links": []
+    },
     "Proxima B": {
         "type": "android",
         "image": "assets/img_proximab.png",
