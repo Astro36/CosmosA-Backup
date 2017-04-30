@@ -61,7 +61,10 @@
         "type": "android",
         "image": "assets/img_pandora.png",
         "description": "Words of Today",
-        "links": []
+        "links": [{
+            "text": "바로가기",
+            "url": "https://github.com/CosmosA/Pandora"
+        }]
     },
     "Pollux": {
         "type": "nodejs",
